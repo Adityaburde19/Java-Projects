@@ -1,0 +1,15 @@
+2024-06-04 17:51:26 INFO com.log.test.SelectTest2 <clinit> main 0 23 com.log.test.SelectTest::log4j setup ready 
+2024-06-04 17:51:26 DEBUG com.log.test.SelectTest2 main main 2 31 com.log.test.SelectTest::start of main method 
+2024-06-04 17:51:26 DEBUG com.log.test.SelectTest2 main main 7 37 com.log.test.SelectTest::JDBC driver driver class Loaded 
+2024-06-04 17:51:26 DEBUG com.log.test.SelectTest2 main main 226 40 com.log.test.SelectTest::connection is established 
+2024-06-04 17:51:26 DEBUG com.log.test.SelectTest2 main main 226 44 com.log.test.SelectTest::JDBC Statement obbject is created 
+2024-06-04 17:51:26 DEBUG com.log.test.SelectTest2 main main 228 49 com.log.test.SelectTest::Sql query is send to DB s/w for execution and ResultSet obj is generated 
+2024-06-04 17:51:26 WARN com.log.test.SelectTest2 main main 228 55 com.log.test.SelectTest::The records are Resultset obj are retrived using getString(-) for all cols 
+2024-06-04 17:51:26 WARN com.log.test.SelectTest2 main main 228 55 com.log.test.SelectTest::The records are Resultset obj are retrived using getString(-) for all cols 
+2024-06-04 17:51:26 WARN com.log.test.SelectTest2 main main 231 55 com.log.test.SelectTest::The records are Resultset obj are retrived using getString(-) for all cols 
+2024-06-04 17:51:26 DEBUG com.log.test.SelectTest2 main main 231 57 com.log.test.SelectTest::Resultset object is processed 
+2024-06-04 17:51:26 DEBUG com.log.test.SelectTest2 main main 232 67 com.log.test.SelectTest::closing JDBC objs 
+2024-06-04 17:51:26 DEBUG com.log.test.SelectTest2 main main 232 72 com.log.test.SelectTest::Resultset obj is closed 
+2024-06-04 17:51:26 DEBUG com.log.test.SelectTest2 main main 232 81 com.log.test.SelectTest::Statement obj is closed 
+2024-06-04 17:51:26 DEBUG com.log.test.SelectTest2 main main 233 90 com.log.test.SelectTest::Connection obj is closed 
+2024-06-04 17:51:26 DEBUG com.log.test.SelectTest2 main main 234 96 com.log.test.SelectTest::End of main(-) method 
